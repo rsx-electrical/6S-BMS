@@ -1015,7 +1015,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "rsx_Resistors:22R"
+		(symbol "rsx_Resistors:40R2"
 			(pin_numbers
 				(hide yes)
 			)
@@ -1033,7 +1033,158 @@
 					)
 				)
 			)
-			(property "Value" "22R"
+			(property "Value" "40R2"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "rsx_resistors:R_0603_1608Metric"
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "40.2 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MFR" "Panasonic Industry"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "DPN" "P40.2HCT-ND"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "ERJ-3EKF40R2V"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "40R2_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "40R2_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "rsx_Resistors:56R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "56R"
 				(at 0 0 90)
 				(effects
 					(font
@@ -1059,7 +1210,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "RES 22 OHM 1% 1/10W 0603"
+			(property "Description" "56 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1077,7 +1228,7 @@
 					(hide yes)
 				)
 			)
-			(property "DPN" "RMCF0603FT22R0CT-ND"
+			(property "DPN" "RMCF0603FT56R0CT-ND"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1086,7 +1237,7 @@
 					(hide yes)
 				)
 			)
-			(property "MPN" "RMCF0603FT22R0"
+			(property "MPN" "RMCF0603FT56R0"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1113,7 +1264,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "22R_0_1"
+			(symbol "56R_0_1"
 				(rectangle
 					(start -1.016 -2.54)
 					(end 1.016 2.54)
@@ -1126,7 +1277,7 @@
 					)
 				)
 			)
-			(symbol "22R_1_1"
+			(symbol "56R_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 1.27)
@@ -1166,166 +1317,16 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "rsx_Resistors:47R"
-			(pin_numbers
-				(hide yes)
-			)
+		(symbol "rsx_Transistors:AO3414"
 			(pin_names
 				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 2.032 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "47R"
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "rsx_resistors:R_0805_2012Metric"
-				(at -1.778 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "RES 47 OHM 5% 1/8W 0805"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MFR" "Stackpole Electronics Inc"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "DPN" "RMCF0805JT47R0CT-ND"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MPN" "RMCF0805JT47R0"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "R res resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "47R_0_1"
-				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "47R_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "rsx_Transistors:T2N7002BK,LM"
-			(pin_names
 				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "Q"
-				(at 5.08 1.905 0)
+				(at 6.35 -1.2701 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1333,8 +1334,8 @@
 					(justify left)
 				)
 			)
-			(property "Value" "T2N7002BK,LM"
-				(at 5.08 0 0)
+			(property "Value" "AO3414"
+				(at 6.35 1.2699 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1342,29 +1343,8 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23_Handsoldering"
-				(at -1.778 -21.082 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://toshiba.semicon-storage.com/info/T2N7002BK_datasheet_en_20191025.pdf?did=30376&prodName=T2N7002BK"
-				(at 0 12.192 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Description" "MOSFET N-CH 60V 400MA SOT23-3"
-				(at -1.524 -15.494 0)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+				(at 5.08 2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1372,34 +1352,7 @@
 					(hide yes)
 				)
 			)
-			(property "MFR" "Toshiba Semiconductor and Storage"
-				(at 0 16.51 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "DPN" "T2N7002BKLMCT-ND"
-				(at -3.048 -25.908 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MPN" "T2N7002BK,LM"
-				(at 0.254 18.542 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "N-Channel MOSFET"
+			(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/1133/AO3414.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1408,7 +1361,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "SOT?23*"
+			(property "Description" "N-Channel 20 V 3A (Ta) 1.4W (Ta) Surface Mount SOT-23-3"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1417,7 +1370,52 @@
 					(hide yes)
 				)
 			)
-			(symbol "T2N7002BK,LM_0_1"
+			(property "DPN" "785-1009-1-ND"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description 1" "1=G 2=S 3=D"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Alpha & Omega Semiconductor Inc."
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "AO3414"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "transistor NMOS N-MOS N-MOSFET"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "AO3414_0_1"
 				(polyline
 					(pts
 						(xy 0.254 1.905) (xy 0.254 -1.905)
@@ -1432,7 +1430,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0.254 0) (xy 3.048 0)
+						(xy 0.254 0) (xy -2.54 0)
 					)
 					(stroke
 						(width 0)
@@ -1500,6 +1498,17 @@
 					)
 					(fill
 						(type outline)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 				(polyline
@@ -1573,20 +1582,9 @@
 					)
 				)
 			)
-			(symbol "T2N7002BK,LM_1_1"
-				(circle
-					(center 1.651 0)
-					(radius 2.794)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
+			(symbol "AO3414_1_1"
 				(pin input line
-					(at -3.81 0 0)
+					(at -5.08 0 0)
 					(length 2.54)
 					(name "G"
 						(effects
@@ -2993,12 +2991,6 @@
 		(uuid "1da1d336-cf0b-494f-94a5-bab3a494814c")
 	)
 	(junction
-		(at 130.81 143.51)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "26c4a489-3d9d-4b6b-ba67-96708eab2982")
-	)
-	(junction
 		(at 49.53 143.51)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3047,10 +3039,10 @@
 		(uuid "72948f1e-d855-412a-b9ed-4d5fdbeee4fb")
 	)
 	(junction
-		(at 130.81 170.18)
+		(at 130.81 143.51)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "7468fa55-73a2-4f46-8190-c6d7b1e7d6a9")
+		(uuid "74ae5aa5-1563-4477-a791-3d7dcacbc837")
 	)
 	(junction
 		(at 99.06 161.29)
@@ -3101,6 +3093,12 @@
 		(uuid "8bea71a3-1bd2-4125-a590-9611e8ff689d")
 	)
 	(junction
+		(at 33.02 170.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "938ba4d8-f65f-4588-9372-29bf3a8dccc6")
+	)
+	(junction
 		(at 187.96 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3143,12 +3141,6 @@
 		(uuid "b3304c84-d9f3-41c9-8280-e94a6cb95e8a")
 	)
 	(junction
-		(at 33.02 143.51)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b9b9762d-8e3d-4375-84f5-fa69a48a055f")
-	)
-	(junction
 		(at 187.96 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3167,6 +3159,12 @@
 		(uuid "cefd00d3-f09c-4698-8013-d2e184dcb562")
 	)
 	(junction
+		(at 130.81 170.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d22790f3-5988-4e49-8f6b-d78be4450a21")
+	)
+	(junction
 		(at 130.81 187.96)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3179,16 +3177,28 @@
 		(uuid "d9ba727e-b1ac-4cce-8b12-cfcf408274cb")
 	)
 	(junction
-		(at 82.55 170.18)
+		(at 82.55 143.51)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "db2c51fe-9060-4490-9371-d2e0d7a0c97c")
+		(uuid "dab2708d-cf64-4878-9915-edbb0a58d410")
+	)
+	(junction
+		(at 33.02 143.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "df215879-93eb-4014-9e38-8cfa6662fda2")
 	)
 	(junction
 		(at 99.06 187.96)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e53b9560-6f0b-4594-8070-be9efac8bb60")
+	)
+	(junction
+		(at 82.55 170.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "edadc6da-111c-48a8-990e-ac2bf7db02af")
 	)
 	(junction
 		(at 187.96 36.83)
@@ -3220,17 +3230,15 @@
 		(color 0 0 0 0)
 		(uuid "fc83db47-7e68-451e-a3cd-2c26835e8e06")
 	)
-	(junction
-		(at 33.02 170.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fce52206-7dc5-4f30-a417-520cfe4ff7f7")
-	)
-	(junction
-		(at 82.55 143.51)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fd1f93be-5145-44a4-ba8a-1018db0fc185")
+	(wire
+		(pts
+			(xy 130.81 170.18) (xy 139.7 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0346900a-762e-47c2-912c-e3ce610d7596")
 	)
 	(wire
 		(pts
@@ -3334,13 +3342,13 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 170.18) (xy 91.44 170.18)
+			(xy 82.55 143.51) (xy 91.44 143.51)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1b734912-cb92-497d-a866-579bb37b6dc6")
+		(uuid "1cc90df5-8cbc-41a4-bda1-5d49307db9c6")
 	)
 	(wire
 		(pts
@@ -3361,6 +3369,16 @@
 			(type default)
 		)
 		(uuid "2cec55c6-3353-45b8-954c-cf4ad004cb26")
+	)
+	(wire
+		(pts
+			(xy 82.55 170.18) (xy 91.44 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30444fd9-84d4-4ddb-a3ea-14f7e28de374")
 	)
 	(wire
 		(pts
@@ -3401,6 +3419,16 @@
 			(type default)
 		)
 		(uuid "375de309-d87b-4f6a-a6ab-0e0cee0fa347")
+	)
+	(wire
+		(pts
+			(xy 33.02 143.51) (xy 41.91 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3bbd8f3f-4761-411d-a2e3-4b1ad9fb2c21")
 	)
 	(wire
 		(pts
@@ -3614,16 +3642,6 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 143.51) (xy 41.91 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6f8d9758-9f11-4eb7-83d5-b142f0b75a4b")
-	)
-	(wire
-		(pts
 			(xy 182.88 54.61) (xy 187.96 54.61)
 		)
 		(stroke
@@ -3654,16 +3672,6 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 143.51) (xy 139.7 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7dc3d52f-10d0-471c-8745-873ccd70d86a")
-	)
-	(wire
-		(pts
 			(xy 33.02 161.29) (xy 35.56 161.29)
 		)
 		(stroke
@@ -3681,16 +3689,6 @@
 			(type default)
 		)
 		(uuid "838426d2-1583-4037-82c6-b97a8b2d01f2")
-	)
-	(wire
-		(pts
-			(xy 130.81 170.18) (xy 139.7 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "854ddd46-ff8b-444f-9615-f7ecef9b5241")
 	)
 	(wire
 		(pts
@@ -3764,6 +3762,16 @@
 	)
 	(wire
 		(pts
+			(xy 26.67 143.51) (xy 33.02 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "909138e6-58bb-4a36-8f4c-998f8bf0887a")
+	)
+	(wire
+		(pts
 			(xy 92.71 161.29) (xy 95.25 161.29)
 		)
 		(stroke
@@ -3821,16 +3829,6 @@
 			(type default)
 		)
 		(uuid "a51b6454-d785-4e52-b668-e4fbb764c31f")
-	)
-	(wire
-		(pts
-			(xy 26.67 143.51) (xy 33.02 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a535cf68-8bb8-4b45-ae97-a25768eac857")
 	)
 	(wire
 		(pts
@@ -3894,6 +3892,26 @@
 	)
 	(wire
 		(pts
+			(xy 130.81 143.51) (xy 139.7 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b10ecd35-db02-43f2-aeec-6c71368274f0")
+	)
+	(wire
+		(pts
+			(xy 33.02 170.18) (xy 41.91 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1c5ce5b-e7ae-464e-9382-4c672d2c490f")
+	)
+	(wire
+		(pts
 			(xy 82.55 187.96) (xy 85.09 187.96)
 		)
 		(stroke
@@ -3901,16 +3919,6 @@
 			(type default)
 		)
 		(uuid "b6c3cd87-8812-4359-9001-38fffba59570")
-	)
-	(wire
-		(pts
-			(xy 82.55 143.51) (xy 91.44 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ba88e1ad-ac86-41fd-ad3d-2117035a6e34")
 	)
 	(wire
 		(pts
@@ -3941,16 +3949,6 @@
 			(type default)
 		)
 		(uuid "bea84723-841c-4338-996e-103df5aa6f8e")
-	)
-	(wire
-		(pts
-			(xy 33.02 170.18) (xy 41.91 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c031cb26-8016-4f79-8f88-242b382adfbf")
 	)
 	(wire
 		(pts
@@ -5095,7 +5093,7 @@
 		)
 	)
 	(symbol
-		(lib_id "rsx_Resistors:22R")
+		(lib_id "rsx_Resistors:40R2")
 		(at 45.72 143.51 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5112,7 +5110,7 @@
 				)
 			)
 		)
-		(property "Value" "22R"
+		(property "Value" "40R2"
 			(at 45.72 139.7 90)
 			(effects
 				(font
@@ -5129,7 +5127,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf"
 			(at 45.72 143.51 0)
 			(effects
 				(font
@@ -5138,7 +5136,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 22 OHM 1% 1/10W 0603"
+		(property "Description" "40.2 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 45.72 143.51 0)
 			(effects
 				(font
@@ -5147,7 +5145,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Stackpole Electronics Inc"
+		(property "MFR" "Panasonic Industry"
 			(at 45.72 143.51 0)
 			(effects
 				(font
@@ -5156,7 +5154,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPN" "RMCF0603FT22R0CT-ND"
+		(property "DPN" "P40.2HCT-ND"
 			(at 45.72 143.51 0)
 			(effects
 				(font
@@ -5165,7 +5163,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RMCF0603FT22R0"
+		(property "MPN" "ERJ-3EKF40R2V"
 			(at 45.72 143.51 0)
 			(effects
 				(font
@@ -5184,6 +5182,103 @@
 			(project ""
 				(path "/99fa3a21-fbe0-4741-b40a-2876fbf4277b"
 					(reference "R_top1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "rsx_Resistors:18R_2W")
+		(at 33.02 147.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "087d24ed-1303-49e6-bdfc-ce0c15a26b70")
+		(property "Reference" "R_bal1"
+			(at 35.56 146.0499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "18R_2W"
+			(at 35.56 148.5899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "rsx_resistors:R_Axial_DIN0516_L15.5mm_D5.0mm_P20.32mm_Horizontal"
+			(at 31.242 147.32 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RSF_RSMF.pdf"
+			(at 33.02 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 18 OHM 5% 2W AXIAL"
+			(at 33.02 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Stackpole Electronics Inc"
+			(at 33.02 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "RSMF2JT18R0CT-ND"
+			(at 33.02 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RSMF2JT18R0"
+			(at 33.02 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "baae885e-4dab-44bb-a333-93b65ad4efb4")
+		)
+		(pin "1"
+			(uuid "fa207336-87b7-4253-a745-528f1d8ae5c8")
+		)
+		(instances
+			(project ""
+				(path "/99fa3a21-fbe0-4741-b40a-2876fbf4277b"
+					(reference "R_bal1")
 					(unit 1)
 				)
 			)
@@ -5352,7 +5447,104 @@
 		)
 	)
 	(symbol
-		(lib_id "rsx_Resistors:47R")
+		(lib_id "rsx_Resistors:18R_2W")
+		(at 130.81 147.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0f85dcfc-d5a8-44a6-b66c-af3710b8bcef")
+		(property "Reference" "R_bal3"
+			(at 133.35 146.0499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "18R_2W"
+			(at 133.35 148.5899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "rsx_resistors:R_Axial_DIN0516_L15.5mm_D5.0mm_P20.32mm_Horizontal"
+			(at 129.032 147.32 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RSF_RSMF.pdf"
+			(at 130.81 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 18 OHM 5% 2W AXIAL"
+			(at 130.81 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Stackpole Electronics Inc"
+			(at 130.81 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "RSMF2JT18R0CT-ND"
+			(at 130.81 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RSMF2JT18R0"
+			(at 130.81 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "26e7d35f-fb85-426d-bb96-1f533ab64967")
+		)
+		(pin "1"
+			(uuid "f2b8a6a7-e91a-42e0-a579-e8f63fba485b")
+		)
+		(instances
+			(project "6S5P_BMS"
+				(path "/99fa3a21-fbe0-4741-b40a-2876fbf4277b"
+					(reference "R_bal3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "rsx_Resistors:56R")
 		(at 39.37 161.29 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5369,7 +5561,7 @@
 				)
 			)
 		)
-		(property "Value" "47R"
+		(property "Value" "56R"
 			(at 39.37 157.48 90)
 			(effects
 				(font
@@ -5377,7 +5569,7 @@
 				)
 			)
 		)
-		(property "Footprint" "rsx_resistors:R_0805_2012Metric"
+		(property "Footprint" "rsx_resistors:R_0603_1608Metric"
 			(at 39.37 163.068 90)
 			(effects
 				(font
@@ -5395,7 +5587,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 47 OHM 5% 1/8W 0805"
+		(property "Description" "56 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 39.37 161.29 0)
 			(effects
 				(font
@@ -5413,7 +5605,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPN" "RMCF0805JT47R0CT-ND"
+		(property "DPN" "RMCF0603FT56R0CT-ND"
 			(at 39.37 161.29 0)
 			(effects
 				(font
@@ -5422,7 +5614,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RMCF0805JT47R0"
+		(property "MPN" "RMCF0603FT56R0"
 			(at 39.37 161.29 0)
 			(effects
 				(font
@@ -5447,7 +5639,7 @@
 		)
 	)
 	(symbol
-		(lib_id "rsx_Transistors:T2N7002BK,LM")
+		(lib_id "rsx_Transistors:AO3414")
 		(at 85.09 182.88 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5465,7 +5657,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "T2N7002BK,LM"
+		(property "Value" "AO3414"
 			(at 78.74 184.1499 0)
 			(effects
 				(font
@@ -5474,29 +5666,26 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23_Handsoldering"
-			(at 86.868 161.798 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://toshiba.semicon-storage.com/info/T2N7002BK_datasheet_en_20191025.pdf?did=30376&prodName=T2N7002BK"
-			(at 85.09 195.072 0)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 80.01 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Description" "MOSFET N-CH 60V 400MA SOT23-3"
-			(at 86.614 167.386 0)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/1133/AO3414.pdf"
+			(at 85.09 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "N-Channel 20 V 3A (Ta) 1.4W (Ta) Surface Mount SOT-23-3"
+			(at 85.09 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5513,8 +5702,8 @@
 				(hide yes)
 			)
 		)
-		(property "DPN" "T2N7002BKLMCT-ND"
-			(at 88.138 156.972 0)
+		(property "DPN" "785-1009-1-ND"
+			(at 85.09 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5522,8 +5711,26 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "T2N7002BK,LM"
-			(at 84.836 201.422 0)
+		(property "MPN" "AO3414"
+			(at 85.09 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description 1" "1=G 2=S 3=D"
+			(at 85.09 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Alpha & Omega Semiconductor Inc."
+			(at 85.09 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5647,7 +5854,7 @@
 		)
 	)
 	(symbol
-		(lib_id "rsx_Resistors:47R")
+		(lib_id "rsx_Resistors:56R")
 		(at 137.16 161.29 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5664,7 +5871,7 @@
 				)
 			)
 		)
-		(property "Value" "47R"
+		(property "Value" "56R"
 			(at 137.16 157.48 90)
 			(effects
 				(font
@@ -5672,7 +5879,7 @@
 				)
 			)
 		)
-		(property "Footprint" "rsx_resistors:R_0805_2012Metric"
+		(property "Footprint" "rsx_resistors:R_0603_1608Metric"
 			(at 137.16 163.068 90)
 			(effects
 				(font
@@ -5690,7 +5897,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 47 OHM 5% 1/8W 0805"
+		(property "Description" "56 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 137.16 161.29 0)
 			(effects
 				(font
@@ -5708,7 +5915,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPN" "RMCF0805JT47R0CT-ND"
+		(property "DPN" "RMCF0603FT56R0CT-ND"
 			(at 137.16 161.29 0)
 			(effects
 				(font
@@ -5717,7 +5924,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RMCF0805JT47R0"
+		(property "MPN" "RMCF0603FT56R0"
 			(at 137.16 161.29 0)
 			(effects
 				(font
@@ -5808,7 +6015,7 @@
 		)
 	)
 	(symbol
-		(lib_id "rsx_Transistors:T2N7002BK,LM")
+		(lib_id "rsx_Transistors:AO3414")
 		(at 35.56 156.21 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5826,7 +6033,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "T2N7002BK,LM"
+		(property "Value" "AO3414"
 			(at 29.21 157.4799 0)
 			(effects
 				(font
@@ -5835,29 +6042,26 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23_Handsoldering"
-			(at 37.338 135.128 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://toshiba.semicon-storage.com/info/T2N7002BK_datasheet_en_20191025.pdf?did=30376&prodName=T2N7002BK"
-			(at 35.56 168.402 0)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 30.48 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Description" "MOSFET N-CH 60V 400MA SOT23-3"
-			(at 37.084 140.716 0)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/1133/AO3414.pdf"
+			(at 35.56 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "N-Channel 20 V 3A (Ta) 1.4W (Ta) Surface Mount SOT-23-3"
+			(at 35.56 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5874,8 +6078,8 @@
 				(hide yes)
 			)
 		)
-		(property "DPN" "T2N7002BKLMCT-ND"
-			(at 38.608 130.302 0)
+		(property "DPN" "785-1009-1-ND"
+			(at 35.56 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5883,8 +6087,26 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "T2N7002BK,LM"
-			(at 35.306 174.752 0)
+		(property "MPN" "AO3414"
+			(at 35.56 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description 1" "1=G 2=S 3=D"
+			(at 35.56 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Alpha & Omega Semiconductor Inc."
+			(at 35.56 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5905,6 +6127,200 @@
 			(project ""
 				(path "/99fa3a21-fbe0-4741-b40a-2876fbf4277b"
 					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "rsx_Resistors:18R_2W")
+		(at 82.55 173.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "30c2977a-5d4a-49e4-b655-65ecf004533a")
+		(property "Reference" "R_bal5"
+			(at 85.09 172.7199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "18R_2W"
+			(at 85.09 175.2599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "rsx_resistors:R_Axial_DIN0516_L15.5mm_D5.0mm_P20.32mm_Horizontal"
+			(at 80.772 173.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RSF_RSMF.pdf"
+			(at 82.55 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 18 OHM 5% 2W AXIAL"
+			(at 82.55 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Stackpole Electronics Inc"
+			(at 82.55 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "RSMF2JT18R0CT-ND"
+			(at 82.55 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RSMF2JT18R0"
+			(at 82.55 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b44324d4-e97f-4969-b8d1-ef004ce9c34d")
+		)
+		(pin "1"
+			(uuid "7da24331-d084-46e6-808f-fa552ebaeb81")
+		)
+		(instances
+			(project "6S5P_BMS"
+				(path "/99fa3a21-fbe0-4741-b40a-2876fbf4277b"
+					(reference "R_bal5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "rsx_Resistors:18R_2W")
+		(at 82.55 147.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "36fb6f7c-c3cb-429a-8801-be94591dc022")
+		(property "Reference" "R_bal2"
+			(at 85.09 146.0499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "18R_2W"
+			(at 85.09 148.5899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "rsx_resistors:R_Axial_DIN0516_L15.5mm_D5.0mm_P20.32mm_Horizontal"
+			(at 80.772 147.32 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RSF_RSMF.pdf"
+			(at 82.55 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 18 OHM 5% 2W AXIAL"
+			(at 82.55 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Stackpole Electronics Inc"
+			(at 82.55 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "RSMF2JT18R0CT-ND"
+			(at 82.55 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RSMF2JT18R0"
+			(at 82.55 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d4bbe6a8-a4cd-43d7-866c-0936bc0f8d6b")
+		)
+		(pin "1"
+			(uuid "67867321-9ae6-4be3-b0f3-6042bfa7f987")
+		)
+		(instances
+			(project "6S5P_BMS"
+				(path "/99fa3a21-fbe0-4741-b40a-2876fbf4277b"
+					(reference "R_bal2")
 					(unit 1)
 				)
 			)
@@ -6105,7 +6521,7 @@
 		)
 	)
 	(symbol
-		(lib_id "rsx_Resistors:22R")
+		(lib_id "rsx_Resistors:40R2")
 		(at 143.51 170.18 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6122,7 +6538,7 @@
 				)
 			)
 		)
-		(property "Value" "22R"
+		(property "Value" "40R2"
 			(at 143.51 166.37 90)
 			(effects
 				(font
@@ -6139,7 +6555,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf"
 			(at 143.51 170.18 0)
 			(effects
 				(font
@@ -6148,7 +6564,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 22 OHM 1% 1/10W 0603"
+		(property "Description" "40.2 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 143.51 170.18 0)
 			(effects
 				(font
@@ -6157,7 +6573,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Stackpole Electronics Inc"
+		(property "MFR" "Panasonic Industry"
 			(at 143.51 170.18 0)
 			(effects
 				(font
@@ -6166,7 +6582,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPN" "RMCF0603FT22R0CT-ND"
+		(property "DPN" "P40.2HCT-ND"
 			(at 143.51 170.18 0)
 			(effects
 				(font
@@ -6175,7 +6591,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RMCF0603FT22R0"
+		(property "MPN" "ERJ-3EKF40R2V"
 			(at 143.51 170.18 0)
 			(effects
 				(font
@@ -6200,104 +6616,7 @@
 		)
 	)
 	(symbol
-		(lib_id "rsx_Resistors:18R_2W")
-		(at 82.55 147.32 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "64fa22f4-173f-4d00-931f-20f978a1ceed")
-		(property "Reference" "R_bal2"
-			(at 85.09 146.0499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "18R_2W"
-			(at 85.09 148.5899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "rsx_resistors:R_Axial_DIN0516_L15.5mm_D5.0mm_P20.32mm_Horizontal"
-			(at 84.328 147.32 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RSF_RSMF.pdf"
-			(at 82.55 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RES 18 OHM 5% 2W AXIAL"
-			(at 82.55 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR" "Stackpole Electronics Inc"
-			(at 82.55 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DPN" "RSMF2JT18R0CT-ND"
-			(at 82.55 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "RSMF2JT18R0"
-			(at 82.55 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "82c50542-4b7b-4b8d-b946-2b83a9012901")
-		)
-		(pin "1"
-			(uuid "577eb997-7a0b-4af8-82c7-811efb652b45")
-		)
-		(instances
-			(project "6S5P_BMS"
-				(path "/99fa3a21-fbe0-4741-b40a-2876fbf4277b"
-					(reference "R_bal2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "rsx_Resistors:22R")
+		(lib_id "rsx_Resistors:40R2")
 		(at 143.51 143.51 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6314,7 +6633,7 @@
 				)
 			)
 		)
-		(property "Value" "22R"
+		(property "Value" "40R2"
 			(at 143.51 139.7 90)
 			(effects
 				(font
@@ -6331,7 +6650,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf"
 			(at 143.51 143.51 0)
 			(effects
 				(font
@@ -6340,7 +6659,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 22 OHM 1% 1/10W 0603"
+		(property "Description" "40.2 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 143.51 143.51 0)
 			(effects
 				(font
@@ -6349,7 +6668,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Stackpole Electronics Inc"
+		(property "MFR" "Panasonic Industry"
 			(at 143.51 143.51 0)
 			(effects
 				(font
@@ -6358,7 +6677,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPN" "RMCF0603FT22R0CT-ND"
+		(property "DPN" "P40.2HCT-ND"
 			(at 143.51 143.51 0)
 			(effects
 				(font
@@ -6367,7 +6686,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RMCF0603FT22R0"
+		(property "MPN" "ERJ-3EKF40R2V"
 			(at 143.51 143.51 0)
 			(effects
 				(font
@@ -6386,103 +6705,6 @@
 			(project "6S5P_BMS"
 				(path "/99fa3a21-fbe0-4741-b40a-2876fbf4277b"
 					(reference "R_top3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "rsx_Resistors:18R_2W")
-		(at 130.81 147.32 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "67a80302-034d-449d-b912-5a39a0785eaa")
-		(property "Reference" "R_bal3"
-			(at 133.35 146.0499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "18R_2W"
-			(at 133.35 148.5899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "rsx_resistors:R_Axial_DIN0516_L15.5mm_D5.0mm_P20.32mm_Horizontal"
-			(at 132.588 147.32 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RSF_RSMF.pdf"
-			(at 130.81 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RES 18 OHM 5% 2W AXIAL"
-			(at 130.81 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR" "Stackpole Electronics Inc"
-			(at 130.81 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DPN" "RSMF2JT18R0CT-ND"
-			(at 130.81 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "RSMF2JT18R0"
-			(at 130.81 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "1be270f7-16c2-4c38-bf71-706291ba41ee")
-		)
-		(pin "1"
-			(uuid "0d78b7e2-5f71-4d56-9724-59f1435215f7")
-		)
-		(instances
-			(project "6S5P_BMS"
-				(path "/99fa3a21-fbe0-4741-b40a-2876fbf4277b"
-					(reference "R_bal3")
 					(unit 1)
 				)
 			)
@@ -6586,104 +6808,7 @@
 		)
 	)
 	(symbol
-		(lib_id "rsx_Resistors:18R_2W")
-		(at 82.55 173.99 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "68584bdf-31d5-4c21-b0ca-abf7c6c261aa")
-		(property "Reference" "R_bal5"
-			(at 85.09 172.7199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "18R_2W"
-			(at 85.09 175.2599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "rsx_resistors:R_Axial_DIN0516_L15.5mm_D5.0mm_P20.32mm_Horizontal"
-			(at 84.328 173.99 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RSF_RSMF.pdf"
-			(at 82.55 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RES 18 OHM 5% 2W AXIAL"
-			(at 82.55 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR" "Stackpole Electronics Inc"
-			(at 82.55 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DPN" "RSMF2JT18R0CT-ND"
-			(at 82.55 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "RSMF2JT18R0"
-			(at 82.55 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "e08d4306-93a9-4997-82a5-38a8c1343249")
-		)
-		(pin "1"
-			(uuid "e7452a09-a413-4433-9b88-a324e8f628ea")
-		)
-		(instances
-			(project "6S5P_BMS"
-				(path "/99fa3a21-fbe0-4741-b40a-2876fbf4277b"
-					(reference "R_bal5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "rsx_Resistors:47R")
+		(lib_id "rsx_Resistors:56R")
 		(at 39.37 187.96 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6700,7 +6825,7 @@
 				)
 			)
 		)
-		(property "Value" "47R"
+		(property "Value" "56R"
 			(at 39.37 184.15 90)
 			(effects
 				(font
@@ -6708,7 +6833,7 @@
 				)
 			)
 		)
-		(property "Footprint" "rsx_resistors:R_0805_2012Metric"
+		(property "Footprint" "rsx_resistors:R_0603_1608Metric"
 			(at 39.37 189.738 90)
 			(effects
 				(font
@@ -6726,7 +6851,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 47 OHM 5% 1/8W 0805"
+		(property "Description" "56 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 39.37 187.96 0)
 			(effects
 				(font
@@ -6744,7 +6869,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPN" "RMCF0805JT47R0CT-ND"
+		(property "DPN" "RMCF0603FT56R0CT-ND"
 			(at 39.37 187.96 0)
 			(effects
 				(font
@@ -6753,7 +6878,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RMCF0805JT47R0"
+		(property "MPN" "RMCF0603FT56R0"
 			(at 39.37 187.96 0)
 			(effects
 				(font
@@ -6772,103 +6897,6 @@
 			(project "6S5P_BMS"
 				(path "/99fa3a21-fbe0-4741-b40a-2876fbf4277b"
 					(reference "R_bot4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "rsx_Resistors:18R_2W")
-		(at 33.02 173.99 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "75bbc886-220a-435b-91a9-e4abd4971cde")
-		(property "Reference" "R_bal4"
-			(at 35.56 172.7199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "18R_2W"
-			(at 35.56 175.2599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "rsx_resistors:R_Axial_DIN0516_L15.5mm_D5.0mm_P20.32mm_Horizontal"
-			(at 34.798 173.99 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RSF_RSMF.pdf"
-			(at 33.02 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RES 18 OHM 5% 2W AXIAL"
-			(at 33.02 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR" "Stackpole Electronics Inc"
-			(at 33.02 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DPN" "RSMF2JT18R0CT-ND"
-			(at 33.02 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "RSMF2JT18R0"
-			(at 33.02 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "66725e6c-8ae0-4db1-af6c-30e6aff47947")
-		)
-		(pin "1"
-			(uuid "06c429ff-977f-49e0-8185-593e40cc43fb")
-		)
-		(instances
-			(project "6S5P_BMS"
-				(path "/99fa3a21-fbe0-4741-b40a-2876fbf4277b"
-					(reference "R_bal4")
 					(unit 1)
 				)
 			)
@@ -6941,7 +6969,7 @@
 		)
 	)
 	(symbol
-		(lib_id "rsx_Resistors:22R")
+		(lib_id "rsx_Resistors:40R2")
 		(at 45.72 170.18 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6958,7 +6986,7 @@
 				)
 			)
 		)
-		(property "Value" "22R"
+		(property "Value" "40R2"
 			(at 45.72 166.37 90)
 			(effects
 				(font
@@ -6975,7 +7003,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf"
 			(at 45.72 170.18 0)
 			(effects
 				(font
@@ -6984,7 +7012,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 22 OHM 1% 1/10W 0603"
+		(property "Description" "40.2 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 45.72 170.18 0)
 			(effects
 				(font
@@ -6993,7 +7021,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Stackpole Electronics Inc"
+		(property "MFR" "Panasonic Industry"
 			(at 45.72 170.18 0)
 			(effects
 				(font
@@ -7002,7 +7030,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPN" "RMCF0603FT22R0CT-ND"
+		(property "DPN" "P40.2HCT-ND"
 			(at 45.72 170.18 0)
 			(effects
 				(font
@@ -7011,7 +7039,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RMCF0603FT22R0"
+		(property "MPN" "ERJ-3EKF40R2V"
 			(at 45.72 170.18 0)
 			(effects
 				(font
@@ -7036,7 +7064,7 @@
 		)
 	)
 	(symbol
-		(lib_id "rsx_Resistors:47R")
+		(lib_id "rsx_Resistors:56R")
 		(at 137.16 187.96 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7053,7 +7081,7 @@
 				)
 			)
 		)
-		(property "Value" "47R"
+		(property "Value" "56R"
 			(at 137.16 184.15 90)
 			(effects
 				(font
@@ -7061,7 +7089,7 @@
 				)
 			)
 		)
-		(property "Footprint" "rsx_resistors:R_0805_2012Metric"
+		(property "Footprint" "rsx_resistors:R_0603_1608Metric"
 			(at 137.16 189.738 90)
 			(effects
 				(font
@@ -7079,7 +7107,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 47 OHM 5% 1/8W 0805"
+		(property "Description" "56 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 137.16 187.96 0)
 			(effects
 				(font
@@ -7097,7 +7125,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPN" "RMCF0805JT47R0CT-ND"
+		(property "DPN" "RMCF0603FT56R0CT-ND"
 			(at 137.16 187.96 0)
 			(effects
 				(font
@@ -7106,7 +7134,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RMCF0805JT47R0"
+		(property "MPN" "RMCF0603FT56R0"
 			(at 137.16 187.96 0)
 			(effects
 				(font
@@ -7125,103 +7153,6 @@
 			(project "6S5P_BMS"
 				(path "/99fa3a21-fbe0-4741-b40a-2876fbf4277b"
 					(reference "R_bot6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "rsx_Resistors:18R_2W")
-		(at 33.02 147.32 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "80b9ddaf-9f4b-4a60-977c-03d5c7091910")
-		(property "Reference" "R_bal1"
-			(at 35.56 146.0499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "18R_2W"
-			(at 35.56 148.5899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "rsx_resistors:R_Axial_DIN0516_L15.5mm_D5.0mm_P20.32mm_Horizontal"
-			(at 34.798 147.32 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RSF_RSMF.pdf"
-			(at 33.02 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RES 18 OHM 5% 2W AXIAL"
-			(at 33.02 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR" "Stackpole Electronics Inc"
-			(at 33.02 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DPN" "RSMF2JT18R0CT-ND"
-			(at 33.02 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "RSMF2JT18R0"
-			(at 33.02 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "eaa38405-bbc7-49c5-8fa4-aea60811ab8e")
-		)
-		(pin "1"
-			(uuid "df98bf00-a92c-496f-8694-862c2883bda2")
-		)
-		(instances
-			(project ""
-				(path "/99fa3a21-fbe0-4741-b40a-2876fbf4277b"
-					(reference "R_bal1")
 					(unit 1)
 				)
 			)
@@ -7514,7 +7445,7 @@
 		)
 	)
 	(symbol
-		(lib_id "rsx_Transistors:T2N7002BK,LM")
+		(lib_id "rsx_Transistors:AO3414")
 		(at 133.35 156.21 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7532,7 +7463,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "T2N7002BK,LM"
+		(property "Value" "AO3414"
 			(at 127 157.4799 0)
 			(effects
 				(font
@@ -7541,29 +7472,26 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23_Handsoldering"
-			(at 135.128 135.128 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://toshiba.semicon-storage.com/info/T2N7002BK_datasheet_en_20191025.pdf?did=30376&prodName=T2N7002BK"
-			(at 133.35 168.402 0)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 128.27 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Description" "MOSFET N-CH 60V 400MA SOT23-3"
-			(at 134.874 140.716 0)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/1133/AO3414.pdf"
+			(at 133.35 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "N-Channel 20 V 3A (Ta) 1.4W (Ta) Surface Mount SOT-23-3"
+			(at 133.35 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7580,8 +7508,8 @@
 				(hide yes)
 			)
 		)
-		(property "DPN" "T2N7002BKLMCT-ND"
-			(at 136.398 130.302 0)
+		(property "DPN" "785-1009-1-ND"
+			(at 133.35 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7589,8 +7517,26 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "T2N7002BK,LM"
-			(at 133.096 174.752 0)
+		(property "MPN" "AO3414"
+			(at 133.35 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description 1" "1=G 2=S 3=D"
+			(at 133.35 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Alpha & Omega Semiconductor Inc."
+			(at 133.35 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7617,7 +7563,7 @@
 		)
 	)
 	(symbol
-		(lib_id "rsx_Transistors:T2N7002BK,LM")
+		(lib_id "rsx_Transistors:AO3414")
 		(at 85.09 156.21 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7635,7 +7581,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "T2N7002BK,LM"
+		(property "Value" "AO3414"
 			(at 78.74 157.4799 0)
 			(effects
 				(font
@@ -7644,29 +7590,26 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23_Handsoldering"
-			(at 86.868 135.128 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://toshiba.semicon-storage.com/info/T2N7002BK_datasheet_en_20191025.pdf?did=30376&prodName=T2N7002BK"
-			(at 85.09 168.402 0)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 80.01 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Description" "MOSFET N-CH 60V 400MA SOT23-3"
-			(at 86.614 140.716 0)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/1133/AO3414.pdf"
+			(at 85.09 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "N-Channel 20 V 3A (Ta) 1.4W (Ta) Surface Mount SOT-23-3"
+			(at 85.09 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7683,8 +7626,8 @@
 				(hide yes)
 			)
 		)
-		(property "DPN" "T2N7002BKLMCT-ND"
-			(at 88.138 130.302 0)
+		(property "DPN" "785-1009-1-ND"
+			(at 85.09 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7692,8 +7635,26 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "T2N7002BK,LM"
-			(at 84.836 174.752 0)
+		(property "MPN" "AO3414"
+			(at 85.09 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description 1" "1=G 2=S 3=D"
+			(at 85.09 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Alpha & Omega Semiconductor Inc."
+			(at 85.09 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7720,104 +7681,7 @@
 		)
 	)
 	(symbol
-		(lib_id "rsx_Resistors:18R_2W")
-		(at 130.81 173.99 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "abe4c6a3-b945-42d0-ad78-99d44752a9c3")
-		(property "Reference" "R_bal6"
-			(at 133.35 172.7199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "18R_2W"
-			(at 133.35 175.2599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "rsx_resistors:R_Axial_DIN0516_L15.5mm_D5.0mm_P20.32mm_Horizontal"
-			(at 132.588 173.99 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RSF_RSMF.pdf"
-			(at 130.81 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RES 18 OHM 5% 2W AXIAL"
-			(at 130.81 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR" "Stackpole Electronics Inc"
-			(at 130.81 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DPN" "RSMF2JT18R0CT-ND"
-			(at 130.81 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "RSMF2JT18R0"
-			(at 130.81 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "0ef207bd-bab0-4f01-bdaf-bf690d60d24f")
-		)
-		(pin "1"
-			(uuid "d229829e-2373-4ad9-9994-0100fee24a7a")
-		)
-		(instances
-			(project "6S5P_BMS"
-				(path "/99fa3a21-fbe0-4741-b40a-2876fbf4277b"
-					(reference "R_bal6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "rsx_Resistors:22R")
+		(lib_id "rsx_Resistors:40R2")
 		(at 95.25 170.18 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7834,7 +7698,7 @@
 				)
 			)
 		)
-		(property "Value" "22R"
+		(property "Value" "40R2"
 			(at 95.25 166.37 90)
 			(effects
 				(font
@@ -7851,7 +7715,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf"
 			(at 95.25 170.18 0)
 			(effects
 				(font
@@ -7860,7 +7724,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 22 OHM 1% 1/10W 0603"
+		(property "Description" "40.2 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 95.25 170.18 0)
 			(effects
 				(font
@@ -7869,7 +7733,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Stackpole Electronics Inc"
+		(property "MFR" "Panasonic Industry"
 			(at 95.25 170.18 0)
 			(effects
 				(font
@@ -7878,7 +7742,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPN" "RMCF0603FT22R0CT-ND"
+		(property "DPN" "P40.2HCT-ND"
 			(at 95.25 170.18 0)
 			(effects
 				(font
@@ -7887,7 +7751,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RMCF0603FT22R0"
+		(property "MPN" "ERJ-3EKF40R2V"
 			(at 95.25 170.18 0)
 			(effects
 				(font
@@ -8060,7 +7924,104 @@
 		)
 	)
 	(symbol
-		(lib_id "rsx_Transistors:T2N7002BK,LM")
+		(lib_id "rsx_Resistors:18R_2W")
+		(at 33.02 173.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c7fe957e-ea9e-41d6-ba70-4cf77dd53f42")
+		(property "Reference" "R_bal4"
+			(at 35.56 172.7199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "18R_2W"
+			(at 35.56 175.2599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "rsx_resistors:R_Axial_DIN0516_L15.5mm_D5.0mm_P20.32mm_Horizontal"
+			(at 31.242 173.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RSF_RSMF.pdf"
+			(at 33.02 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 18 OHM 5% 2W AXIAL"
+			(at 33.02 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Stackpole Electronics Inc"
+			(at 33.02 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "RSMF2JT18R0CT-ND"
+			(at 33.02 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RSMF2JT18R0"
+			(at 33.02 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b1fee3b1-4d66-418f-b506-57795d60e83f")
+		)
+		(pin "1"
+			(uuid "fe74d967-c934-484d-84af-43264cac9eaa")
+		)
+		(instances
+			(project "6S5P_BMS"
+				(path "/99fa3a21-fbe0-4741-b40a-2876fbf4277b"
+					(reference "R_bal4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "rsx_Transistors:AO3414")
 		(at 133.35 182.88 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8078,7 +8039,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "T2N7002BK,LM"
+		(property "Value" "AO3414"
 			(at 127 184.1499 0)
 			(effects
 				(font
@@ -8087,29 +8048,26 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23_Handsoldering"
-			(at 135.128 161.798 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://toshiba.semicon-storage.com/info/T2N7002BK_datasheet_en_20191025.pdf?did=30376&prodName=T2N7002BK"
-			(at 133.35 195.072 0)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 128.27 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Description" "MOSFET N-CH 60V 400MA SOT23-3"
-			(at 134.874 167.386 0)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/1133/AO3414.pdf"
+			(at 133.35 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "N-Channel 20 V 3A (Ta) 1.4W (Ta) Surface Mount SOT-23-3"
+			(at 133.35 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8126,8 +8084,8 @@
 				(hide yes)
 			)
 		)
-		(property "DPN" "T2N7002BKLMCT-ND"
-			(at 136.398 156.972 0)
+		(property "DPN" "785-1009-1-ND"
+			(at 133.35 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8135,8 +8093,26 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "T2N7002BK,LM"
-			(at 133.096 201.422 0)
+		(property "MPN" "AO3414"
+			(at 133.35 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description 1" "1=G 2=S 3=D"
+			(at 133.35 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Alpha & Omega Semiconductor Inc."
+			(at 133.35 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8163,7 +8139,7 @@
 		)
 	)
 	(symbol
-		(lib_id "rsx_Resistors:47R")
+		(lib_id "rsx_Resistors:56R")
 		(at 88.9 187.96 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8180,7 +8156,7 @@
 				)
 			)
 		)
-		(property "Value" "47R"
+		(property "Value" "56R"
 			(at 88.9 184.15 90)
 			(effects
 				(font
@@ -8188,7 +8164,7 @@
 				)
 			)
 		)
-		(property "Footprint" "rsx_resistors:R_0805_2012Metric"
+		(property "Footprint" "rsx_resistors:R_0603_1608Metric"
 			(at 88.9 189.738 90)
 			(effects
 				(font
@@ -8206,7 +8182,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 47 OHM 5% 1/8W 0805"
+		(property "Description" "56 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 88.9 187.96 0)
 			(effects
 				(font
@@ -8224,7 +8200,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPN" "RMCF0805JT47R0CT-ND"
+		(property "DPN" "RMCF0603FT56R0CT-ND"
 			(at 88.9 187.96 0)
 			(effects
 				(font
@@ -8233,7 +8209,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RMCF0805JT47R0"
+		(property "MPN" "RMCF0603FT56R0"
 			(at 88.9 187.96 0)
 			(effects
 				(font
@@ -8258,7 +8234,7 @@
 		)
 	)
 	(symbol
-		(lib_id "rsx_Transistors:T2N7002BK,LM")
+		(lib_id "rsx_Transistors:AO3414")
 		(at 35.56 182.88 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8276,7 +8252,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "T2N7002BK,LM"
+		(property "Value" "AO3414"
 			(at 29.21 184.1499 0)
 			(effects
 				(font
@@ -8285,29 +8261,26 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23_Handsoldering"
-			(at 37.338 161.798 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://toshiba.semicon-storage.com/info/T2N7002BK_datasheet_en_20191025.pdf?did=30376&prodName=T2N7002BK"
-			(at 35.56 195.072 0)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 30.48 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Description" "MOSFET N-CH 60V 400MA SOT23-3"
-			(at 37.084 167.386 0)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/1133/AO3414.pdf"
+			(at 35.56 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "N-Channel 20 V 3A (Ta) 1.4W (Ta) Surface Mount SOT-23-3"
+			(at 35.56 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8324,8 +8297,8 @@
 				(hide yes)
 			)
 		)
-		(property "DPN" "T2N7002BKLMCT-ND"
-			(at 38.608 156.972 0)
+		(property "DPN" "785-1009-1-ND"
+			(at 35.56 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8333,8 +8306,26 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "T2N7002BK,LM"
-			(at 35.306 201.422 0)
+		(property "MPN" "AO3414"
+			(at 35.56 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description 1" "1=G 2=S 3=D"
+			(at 35.56 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Alpha & Omega Semiconductor Inc."
+			(at 35.56 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8361,7 +8352,7 @@
 		)
 	)
 	(symbol
-		(lib_id "rsx_Resistors:22R")
+		(lib_id "rsx_Resistors:40R2")
 		(at 95.25 143.51 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8378,7 +8369,7 @@
 				)
 			)
 		)
-		(property "Value" "22R"
+		(property "Value" "40R2"
 			(at 95.25 139.7 90)
 			(effects
 				(font
@@ -8395,7 +8386,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf"
 			(at 95.25 143.51 0)
 			(effects
 				(font
@@ -8404,7 +8395,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 22 OHM 1% 1/10W 0603"
+		(property "Description" "40.2 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 95.25 143.51 0)
 			(effects
 				(font
@@ -8413,7 +8404,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Stackpole Electronics Inc"
+		(property "MFR" "Panasonic Industry"
 			(at 95.25 143.51 0)
 			(effects
 				(font
@@ -8422,7 +8413,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPN" "RMCF0603FT22R0CT-ND"
+		(property "DPN" "P40.2HCT-ND"
 			(at 95.25 143.51 0)
 			(effects
 				(font
@@ -8431,7 +8422,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RMCF0603FT22R0"
+		(property "MPN" "ERJ-3EKF40R2V"
 			(at 95.25 143.51 0)
 			(effects
 				(font
@@ -8522,7 +8513,7 @@
 		)
 	)
 	(symbol
-		(lib_id "rsx_Resistors:47R")
+		(lib_id "rsx_Resistors:56R")
 		(at 88.9 161.29 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8539,7 +8530,7 @@
 				)
 			)
 		)
-		(property "Value" "47R"
+		(property "Value" "56R"
 			(at 88.9 157.48 90)
 			(effects
 				(font
@@ -8547,7 +8538,7 @@
 				)
 			)
 		)
-		(property "Footprint" "rsx_resistors:R_0805_2012Metric"
+		(property "Footprint" "rsx_resistors:R_0603_1608Metric"
 			(at 88.9 163.068 90)
 			(effects
 				(font
@@ -8565,7 +8556,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 47 OHM 5% 1/8W 0805"
+		(property "Description" "56 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 88.9 161.29 0)
 			(effects
 				(font
@@ -8583,7 +8574,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPN" "RMCF0805JT47R0CT-ND"
+		(property "DPN" "RMCF0603FT56R0CT-ND"
 			(at 88.9 161.29 0)
 			(effects
 				(font
@@ -8592,7 +8583,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RMCF0805JT47R0"
+		(property "MPN" "RMCF0603FT56R0"
 			(at 88.9 161.29 0)
 			(effects
 				(font
@@ -8611,6 +8602,103 @@
 			(project "6S5P_BMS"
 				(path "/99fa3a21-fbe0-4741-b40a-2876fbf4277b"
 					(reference "R_bot2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "rsx_Resistors:18R_2W")
+		(at 130.81 173.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f21be914-afb9-4cc3-a84a-bfb58420ee45")
+		(property "Reference" "R_bal6"
+			(at 133.35 172.7199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "18R_2W"
+			(at 133.35 175.2599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "rsx_resistors:R_Axial_DIN0516_L15.5mm_D5.0mm_P20.32mm_Horizontal"
+			(at 129.032 173.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RSF_RSMF.pdf"
+			(at 130.81 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 18 OHM 5% 2W AXIAL"
+			(at 130.81 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Stackpole Electronics Inc"
+			(at 130.81 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "RSMF2JT18R0CT-ND"
+			(at 130.81 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RSMF2JT18R0"
+			(at 130.81 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "006250c1-7b89-4a40-9d65-5b2fdb4389d8")
+		)
+		(pin "1"
+			(uuid "8af14f67-c9ee-49e7-9219-04a65377863f")
+		)
+		(instances
+			(project "6S5P_BMS"
+				(path "/99fa3a21-fbe0-4741-b40a-2876fbf4277b"
+					(reference "R_bal6")
 					(unit 1)
 				)
 			)
