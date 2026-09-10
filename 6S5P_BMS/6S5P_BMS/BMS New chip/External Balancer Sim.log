@@ -1,0 +1,17 @@
+LTspice 24.1.10 for Windows
+Circuit: C:\Users\alexa\Documents\Github\6S-BMS\6S5P_BMS\6S5P_BMS\BMS New chip\External Balancer Sim.net
+Start Time: Sun Sep  6 16:35:18 2026
+solver = Normal
+Maximum thread count: 16
+tnom = 27
+temp = 27
+method = trap
+WARNING: Node nc_01 is floating.
+
+Direct Newton iteration for .op point succeeded.
+Total elapsed time: 0.389 seconds.
+
+Files loaded:
+C:\Users\alexa\Documents\Github\6S-BMS\6S5P_BMS\6S5P_BMS\BMS New chip\External Balancer Sim.net
+C:\Users\alexa\AppData\Local\LTspice\lib\cmp\standard.mos
+
