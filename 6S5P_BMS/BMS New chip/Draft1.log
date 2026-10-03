@@ -1,0 +1,16 @@
+LTspice 24.1.10 for Windows
+Circuit: C:\Users\alexa\Documents\Github\6S-BMS\6S5P_BMS\6S5P_BMS\BMS New chip\Draft1.net
+Start Time: Wed Sep  9 20:58:09 2026
+solver = Normal
+Maximum thread count: 16
+tnom = 27
+temp = 27
+method = trap
+WARNING: Node n005 is floating.
+
+Direct Newton iteration for .op point succeeded.
+Total elapsed time: 0.196 seconds.
+
+Files loaded:
+C:\Users\alexa\Documents\Github\6S-BMS\6S5P_BMS\6S5P_BMS\BMS New chip\Draft1.net
+
